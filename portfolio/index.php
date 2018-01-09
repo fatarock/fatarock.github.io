@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>c moa</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+</head>
+<body>
+  <div class="row row1">
+    <div class="col-sm-4 patate">
+      <div class="sticker example-1"></div>
+    </div>
+    <div class="col-sm-8 titre">
+      <h1>Corentin COQUEN</h1>
+      <h3>Web developper</h3>
+      <h3>Full Stack</h3>
+    </div>
+  </div>
+
+  <div class="row row2">
+    <div class="col-sm-12 titre">
+      <h2> Compétences </h2>
+    </div>
+    <div class="col-sm-4 titre">
+      <h3>Html</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 titre">
+      <h3>JS</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 titre">
+      <h3>PHP</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 titre">
+      <h3>CSS</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 titre">
+      <h3>Symfony</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 titre">
+      <h3>NodeJS</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 titre">
+      <h3>MySQL</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width:87%">
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 titre">
+      <h3 >Wordpress</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 titre">
+      <h3 >Jquery</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style="width:82%">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row row4">
+    <div class="col-sm-12 titre">
+      <h2>Projets</h2>
+    </div>
+    <div class="col-sm-4">
+      <img class="pra" src="images/maps.png" alt="maps">
+    </div>
+    <div class="col-sm-4">
+      <img class="pra" src="images/my_cinema.png" alt="cinema">
+    </div>
+    <div class="col-sm-4">
+      <img class="pra" src="images/mario.png" alt="mario">
+    </div>
+    <div class="col-sm-4 titre">
+      <h3>Maps</h3>
+    </div>
+    <div class="col-sm-4 titre">
+      <h3>My_cinema</h3>
+    </div>
+    <div class="col-sm-4 titre">
+      <h3>Mario</h3>
+    </div>
+  </div>
+  <div class="row row5">
+    <div class="col-sm-6 titre center">
+      <h2>Contact</h2>
+      <p>corentin.coquen@epitech.eu</p>
+      <p>linkedin: <a href="https://www.linkedin.com/in/corentin-coquen-72a92a14b/">liens</a></p>
+    </div>
+    <div class="col-sm-6 titre">
+      <h2>CV</h2>
+      <a href="images/cv.pdf"><img class="cv" src="images/cv.png" alt="cv"></a>
+      <p>télécharger le CV</p>
+    </div>
+  </div>
+  <script type="text/javascript"src="stickerjs-master/sticker.min.js"></script>
+  <script type="text/javascript">
+    Sticker.init('.sticker');
+  </script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
